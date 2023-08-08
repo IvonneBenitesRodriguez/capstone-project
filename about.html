@@ -11,8 +11,17 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="desktop-version-nav">
             <img src="./img/hamb-icon.svg" class="hamb-icon" alt="menu-bar">
+        </nav>
+        <nav class="desktop-social-icons">
+            <ul class="new-nav">
+                <li><a href="#"><img src="./img/desktop/facebook.svg" alt="facebook logo"></a></li>
+                <li><a href="#"><img src="./img/desktop/twitter.svg" alt="twitter logo"></a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
         </nav>
         <section class="logo-company">
             <img src="./img/logo-mother-coding.svg" alt="logo-company">
@@ -24,22 +33,34 @@
                 </div>
                 <ul class="mobile-links">
                     <li><a href="#about" id="about">About</a></li>
-                    <li><a href="#program" id="program">Program</a></li>
-                    <li><a href="#join" id="join">Join</a></li>
-                    <li><a href="#sponsor" id="sponsor">Sponsor</a></li>
-                    <li><a href="#speaker" id="speaker">Speakers</a></li>
-                    <li><a href="#news" id="news">News</a></li>       
+                    <li><a href="index.html#main-program">Program</a></li>
+                    <li><a href="index.html#future-speakers">Speakers</a></li>
+                    <li><a href="index.html#future-partners">Sponsors</a></li>      
                 </ul>
             </div>
         </div>
    </header>
+   <article class="white-logo-company">
+            <figure class="logo-desktop">
+                    <a href="index.html"><img src="./img/logo-mother-coding.svg" alt="logo-company-desktop"></a>
+            </figure>
+            <ul>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="index.html#main-program">Program</a></li>
+                <li class="nav-item"><a href="index.html#future-speakers">Speakers</a></li>
+                <li class="nav-item"><a href="index.html#future-partners">Sponsors</a></li>
+                <li class="button-desktop nav-item"><a href="#">CC Campaign</a></li>         
+            </ul>    
+    </article>
+
         <section class="hero-container-about" id="about">
             <article class="theme-about">
                         <span class="intro-phrase">Welcome mommies</span>    
                         <h1 class="hero-title-about">
             
                             Mother kids Programming Online Conference 
-                        </h1>             
+                        </h1>
+                        <img src="./img/title_underline.svg" class="line-red" alt="red-line">             
             </article>
             <article class="text-event">
                 This event brings together the community of experts, academics, and activists who want to promote a different way to see the education and digital industry. 
@@ -81,10 +102,10 @@
                 </h2>
                 <img src="./img/title_underline.svg" class="line-red" alt="red-line">
             </div>
-            <p class="creative-text">
+            <p class="creative-text past-events">
                 Both conferences were in Barcelona and in Brazil.<br/> You can watch it online.
             </p>
-            <article class="past-events-pictures-group">
+            <article class="past-events-pictures-group past-events">
                         <div class="first-event">
                                 <div class="overlay">
                                     <span class="past-events-pictures-1">
@@ -109,7 +130,7 @@
         </section>
         <section class="partners">
             <div class="title-text-line">
-                <h2 class="title-main-partners">
+                <h2 class="title-main-partners" id="future-partners-mobile">
                     Partner
                 </h2>
                 <img src="./img/title_underline.svg" class="line-red" alt="red-line">
@@ -122,15 +143,21 @@
                 <li><a href="#"><img src="./img/partner-icon/airbnb.svg" alt="airbnb icon"></a></li>
             </ul>
         </section>
+
         <footer class="footer-about">
             <section class="footer-last">
                 <figure class="logo-footer">
-                    <img src="./img/logo-mother-coding.svg" alt="logo-footer">
+                   <a href="index.html"><img src="./img/logo-mother-coding.svg" alt="logo-footer"></a> 
                 </figure>
-                <p class="footer-text">
-                    Mothers Kids Conference<br/>
-                    Some Rights Reserved.
-                </p>
+                <div class="text-footer">
+                        <p class="footer-text mobile">
+                            Mothers Kids Conference<br/>
+                            Some Rights Reserved.
+                        </p>
+                        <p class="footer-text-more footer-text-more-desktop">
+                            Welcome you all to our event, it will be your best investment for you and your family.
+                        </p>
+                </div>        
             </section>
         </footer>    
 </body>
