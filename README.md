@@ -41,6 +41,7 @@ This project's goal is to offer a very good user experience.
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://www.figma.com/ui-design-tool/">FIGMA</a></li>
   </ul>
+ </details> 
 
 <!-- Features -->
 
@@ -54,8 +55,7 @@ This project's goal is to offer a very good user experience.
 - **Read about the usage of Buttons** and how to make it interactive. 📍
 - **Understand how to make a design Responsive** for Desktop devices. 📍
 - **Understand the usage of JavaScript: Events, DOM manipulation, syntax, and Objects to store data**📍
-- **Understand how to add Client side validation: regex, built-in input elements**📍
-- **Implement the preserve-data functionality** to the project. 📍
+- **Understand the usage of media-queries and also for loops** to make dynamic the website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
