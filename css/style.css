@@ -655,6 +655,14 @@ footer {
   display: block;
 }
 
+.footer-text-more {
+  display: none;
+}
+
+p.footer-text.mobile {
+  color: #3b3e45;
+}
+
 @media screen and (min-width: 768px) {
   nav.desktop-version-nav {
     display: none;
@@ -746,9 +754,23 @@ footer {
     padding-bottom: 30px;
   }
 
+  section.hero-container-about {
+    background: left 3% / 102% 40% no-repeat url(../img/desktop/about-bg.png) #f7f8f7;
+  }
+
+  article.theme-about {
+    padding-top: 92px;
+    background: 0;
+    padding-bottom: 18px;
+  }
+
   .hero-title {
     padding-bottom: 0;
     font-size: 2.5rem;
+  }
+
+  h1.hero-title-about {
+    padding-bottom: 10px;
   }
 
   article.text-structure {
@@ -760,6 +782,7 @@ footer {
 
   span.intro-phrase {
     font-size: 1.7rem;
+    display: none;
   }
 
   p.text {
@@ -769,6 +792,46 @@ footer {
     text-align: justify;
   }
 
+  article.text-event {
+    padding: 25px 40px;
+    margin-left: 132px;
+    margin-right: 132px;
+  }
+
+  h2.title-main-about br {
+    display: none;
+  }
+
+  p.creative-text {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 367px;
+  }
+
+  p.footer-text br {
+    display: none;
+  }
+
+  p.creative-text.past-events br {
+    display: none;
+  }
+
+  p.creative-text.past-events {
+    width: 100%;
+  }
+
+  p.contact.about-text {
+    padding-top: 10px;
+  }
+
+  p.contact.about-text br {
+    display: none;
+  }
+
+  p.mail-contact {
+    padding-bottom: 60px;
+  }
+
   article.text-event-date {
     margin-left: 73px;
     padding-bottom: 90px;
@@ -776,6 +839,17 @@ footer {
 
   article.text-event-date h2.event-date {
     font-size: 30px;
+  }
+
+  article.past-events-pictures-group.past-events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 65px;
+  }
+
+  section.partners {
+    display: none;
   }
 
   span.event-place {
@@ -920,6 +994,31 @@ footer {
   p.footer-text {
     width: 100%;
   }
+
+  .footer-about {
+    background: #2e2e2e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  p.footer-text-more {
+    display: block;
+  }
+
+  p.footer-text-more-desktop {
+    color: #fff;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 14px;
+  }
+
+  p.footer-text.mobile {
+    color: #fff;
+  }
+
+  .nav-item a:hover {
+    color: #f07f7e;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -931,5 +1030,21 @@ footer {
 @media screen and (min-width: 1024px) {
   article.white-logo-company ul {
     gap: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  article.white-logo-company {
+    gap: 232px;
+    justify-content: flex-end;
+  }
+
+  section.hero-container-about {
+    background: left 3% / 102% 40% no-repeat url(../img/desktop/about-bg.png) #f7f8f7;
+  }
+
+  article.text-event {
+    margin-left: 189px;
+    margin-right: 189px;
   }
 }
