@@ -11,8 +11,17 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="desktop-version-nav">
             <img src="./img/hamb-icon.svg" class="hamb-icon" alt="menu-bar">
+        </nav>
+        <nav class="desktop-social-icons">
+            <ul class="new-nav">
+                <li><a href="#"><img src="./img/desktop/facebook.svg" alt="facebook logo"></a></li>
+                <li><a href="#"><img src="./img/desktop/twitter.svg" alt="twitter logo"></a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
         </nav>
         <section class="logo-company">
             <img src="./img/logo-mother-coding.svg" alt="logo-company">
@@ -33,6 +42,19 @@
             </div>
         </div>
    </header>
+   <article class="white-logo-company">
+        <figure class="logo-desktop">
+                <a href="#"><img src="./img/logo-mother-coding.svg" alt="logo-company-desktop"></a>
+        </figure>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li class="button-desktop"><a href="#">CC Campaign</a></li>         
+        </ul>    
+   </article>
+
     <section class="hero-container" id="about">
                         <article class="theme">
                             <span class="intro-phrase">Welcome beautiful Mothers!!</span>  
@@ -60,6 +82,7 @@
                                     </h2>
                                     <img src="./img/title_underline.svg" class="line-red" alt="red-line">
                                 </div>
+                            <div class="group-info-card">
                                 <article class="program-card">
                                     <img src="./img/icons/icon1.svg" alt="first-icon">
                                     <span class="title-card">Lecture</span>
@@ -70,7 +93,7 @@
                                 </article>
                                 <article class="program-card">
                                     <img src="./img/icons/icon2.svg" alt="second-icon">
-                                    <span class="title-card">CC Exhibition</span>
+                                    <span class="title-card">Expo</span>
                                     <p class="title-text">
                                         Several projects made by our Speakers in JavaScript, C+, 
                                         Python and more.
@@ -100,8 +123,10 @@
                                         Come and talk with the several options for you.
                                     </p>
                                 </article>
+                            </div>    
                                 <div class="button">
-                                    <button type="button" class="button-join" id="join">Join our Online Event</button>    
+                                    <button type="button" class="button-join" id="join">Join our Online Event</button>
+                                    <button type="button" class="button-join" id="join-desktop">see the whole program</button>    
                                 </div>    
             </section>
             <section class="speakers" id="speakers">
@@ -112,7 +137,41 @@
                     <img src="./img/title_underline.svg" class="line-red" alt="red-line">
                 </div>
                 <div class="speaker-card"></div>
-                <button type="button" class="more-button">MORE<i class="fa-solid fa-chevron-down"></i></button>  
+                <button type="button" class="more-button" id="moreButton">MORE<i class="fa-solid fa-chevron-down"></i></button>  
             </section>
+
+            <section class="partners gray">
+                <div class="title-text-line">
+                    <h2 class="title-main-partners gray">
+                        Partner
+                    </h2>
+                    <img src="./img/title_underline.svg" class="line-red" alt="red-line">
+                </div>
+                <ul class="partners-icons">
+                    <li><a href="#"><img src="./img/partner-icon/mozilla.svg" alt="mozilla icon"></a></li>
+                    <li><a href="#"><img src="./img/partner-icon/google.svg" alt="google icon"></a></li>
+                    <li><a href="#"><img src="./img/partner-icon/naver.svg" alt="naver icon"></a></li>
+                    <li><a href="#"><img src="./img/partner-icon/daumkakaologo.svg" alt="daumkakao"></a></li>
+                    <li><a href="#"><img src="./img/partner-icon/airbnb.svg" alt="airbnb icon"></a></li>
+                </ul>
+            </section>
+
+            <footer>
+                <section class="footer-last no-mobile">
+                    <figure class="logo-footer">
+                        <img src="./img/logo-mother-coding.svg" alt="logo-footer">
+                    </figure>
+                    <div class="text-footer">
+                            <p class="footer-text">
+                                Mothers Kids Conference
+                                Some Rights Reserved.
+                            </p>
+                            <p class="footer-text-1">
+                                Welcome you all to our event, it will be your best investment for 
+                                you and your family.
+                            </p>
+                    </div>        
+                </section>
+            </footer>    
 </body>
 </html>
