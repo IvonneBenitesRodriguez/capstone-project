@@ -868,7 +868,8 @@ p.footer-text.mobile {
     padding: 6px 18px 22px 18px;
     margin-bottom: 0;
   }
-  article.program-card:hover{
+
+  article.program-card:hover {
     border: 1px solid #fff;
   }
 
@@ -1023,17 +1024,11 @@ p.footer-text.mobile {
   .nav-item a:hover {
     color: #f07f7e;
   }
-  article.program-card:hover{
-    border: 1px solid #fff;
-  }
 }
 
 @media screen and (min-width: 992px) {
   article.white-logo-company ul {
     gap: 92px;
-  }
-  article.program-card:hover{
-    border: 1px solid #fff;
   }
 }
 
@@ -1041,15 +1036,16 @@ p.footer-text.mobile {
   article.white-logo-company ul {
     gap: 100px;
   }
-  article.program-card:hover{
+
+  article.program-card:hover {
     border: 1px solid #fff;
   }
 }
 
 @media screen and (min-width: 1280px) {
- ul.new-nav{
-  padding-right: 107px;
- }
+  ul.new-nav {
+    padding-right: 107px;
+  }
 
   article.white-logo-company {
     gap: 247px;
@@ -1064,29 +1060,37 @@ p.footer-text.mobile {
     margin-left: 189px;
     margin-right: 189px;
   }
-  article.program-card{
+
+  article.program-card {
     width: 200px;
     opacity: 96%;
   }
-  article.program-card:hover{
+
+  article.program-card:hover {
     border: 1px solid #fff;
   }
-  article.program-card.last{
+
+  article.program-card.last {
     width: 200px;
   }
-  article.program-card img{
+
+  article.program-card img {
     width: 104px;
   }
-  span.title-card{
+
+  span.title-card {
     font-size: 19px;
   }
-  p.title-text{
+
+  p.title-text {
     font-size: 16px;
   }
-  article.cardWork{
+
+  article.cardWork {
     display: flex;
   }
-  figure#logo-butterfly.logo-desktop img{
+
+  figure#logo-butterfly.logo-desktop img {
     margin-right: 93px;
   }
 }
