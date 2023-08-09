@@ -84,9 +84,10 @@ nav img.hamb-icon {
 }
 
 section.logo-company img {
-  padding-left: 69px;
+  /* padding-left: 69px;
   padding-top: 20px;
-  padding-bottom: 6px;
+  padding-bottom: 6px; */
+  display: none;
 }
 
 article.theme {
@@ -867,6 +868,9 @@ p.footer-text.mobile {
     padding: 6px 18px 22px 18px;
     margin-bottom: 0;
   }
+  article.program-card:hover{
+    border: 1px solid #fff;
+  }
 
   article.program-card.last {
     display: block;
@@ -1019,11 +1023,17 @@ p.footer-text.mobile {
   .nav-item a:hover {
     color: #f07f7e;
   }
+  article.program-card:hover{
+    border: 1px solid #fff;
+  }
 }
 
 @media screen and (min-width: 992px) {
   article.white-logo-company ul {
     gap: 92px;
+  }
+  article.program-card:hover{
+    border: 1px solid #fff;
   }
 }
 
@@ -1031,12 +1041,19 @@ p.footer-text.mobile {
   article.white-logo-company ul {
     gap: 100px;
   }
+  article.program-card:hover{
+    border: 1px solid #fff;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+ ul.new-nav{
+  padding-right: 107px;
+ }
+
   article.white-logo-company {
-    gap: 232px;
-    justify-content: flex-end;
+    gap: 247px;
+    justify-content: center;
   }
 
   section.hero-container-about {
@@ -1046,5 +1063,30 @@ p.footer-text.mobile {
   article.text-event {
     margin-left: 189px;
     margin-right: 189px;
+  }
+  article.program-card{
+    width: 200px;
+    opacity: 96%;
+  }
+  article.program-card:hover{
+    border: 1px solid #fff;
+  }
+  article.program-card.last{
+    width: 200px;
+  }
+  article.program-card img{
+    width: 104px;
+  }
+  span.title-card{
+    font-size: 19px;
+  }
+  p.title-text{
+    font-size: 16px;
+  }
+  article.cardWork{
+    display: flex;
+  }
+  figure#logo-butterfly.logo-desktop img{
+    margin-right: 93px;
   }
 }
