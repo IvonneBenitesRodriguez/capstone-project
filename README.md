@@ -65,7 +65,7 @@ This project's goal is to offer a very good user experience.
 
 This is the live demo to <em>capstone-project</em>: <br/>
 
-- [Live Demo Link](https://ivonnebenitesrodriguez.github.io/capstone-project/index.html)
+- [Live Demo Link](https://ivonnebenitesrodriguez.github.io/capstone-project/index.html#main-program)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
