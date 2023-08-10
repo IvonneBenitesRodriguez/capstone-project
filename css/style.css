@@ -373,7 +373,7 @@ div.speaker-card {
 .cardWork {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 14.23px;
   padding-bottom: 17.79px;
   padding-right: 8.54px;
@@ -768,6 +768,7 @@ p.footer-text.mobile {
   .hero-title {
     padding-bottom: 0;
     font-size: 2.5rem;
+    padding-top: 46px;
   }
 
   h1.hero-title-about {
@@ -864,8 +865,6 @@ p.footer-text.mobile {
 
   article.program-card {
     display: block;
-    width: 125px;
-    padding: 6px 18px 22px 18px;
     margin-bottom: 0;
   }
 
@@ -875,15 +874,13 @@ p.footer-text.mobile {
 
   article.program-card.last {
     display: block;
-    width: 125px;
     margin-bottom: 0;
-    padding: 6px 18px 6px 18px;
   }
 
   .program-card img {
-    width: 70px;
+    width: 60%;
     padding-left: 29%;
-    padding-top: 10px;
+    padding-top: 16px;
   }
 
   .group-info-card {
@@ -901,11 +898,13 @@ p.footer-text.mobile {
     width: 100%;
     padding-top: 10px;
     padding-left: 0;
+    font-size: 20px;
   }
 
   p.title-text {
     text-align: center;
-    padding: 2% 2px 2%;
+    padding: 2% 10px 2%;
+    font-size: 14px;
   }
 
   button.button-join {
@@ -924,6 +923,7 @@ p.footer-text.mobile {
 
   .cardWork {
     display: flex;
+    justify-content: flex-start;
   }
 
   .speakers {
@@ -1024,11 +1024,19 @@ p.footer-text.mobile {
   .nav-item a:hover {
     color: #f07f7e;
   }
+
+  section.main-program {
+    padding: 12px 9%;
+  }
 }
 
 @media screen and (min-width: 992px) {
   article.white-logo-company ul {
     gap: 92px;
+  }
+
+  .cardWork {
+    justify-content: flex-start;
   }
 }
 
@@ -1039,6 +1047,10 @@ p.footer-text.mobile {
 
   article.program-card:hover {
     border: 1px solid #fff;
+  }
+
+  .cardWork {
+    justify-content: flex-start;
   }
 }
 
@@ -1059,10 +1071,10 @@ p.footer-text.mobile {
   article.text-event {
     margin-left: 189px;
     margin-right: 189px;
+    font-size: 20px;
   }
 
   article.program-card {
-    width: 200px;
     opacity: 96%;
   }
 
@@ -1070,27 +1082,59 @@ p.footer-text.mobile {
     border: 1px solid #fff;
   }
 
-  article.program-card.last {
-    width: 200px;
-  }
-
   article.program-card img {
-    width: 104px;
+    width: 60%;
   }
 
   span.title-card {
-    font-size: 19px;
+    font-size: 24px;
   }
 
   p.title-text {
     font-size: 16px;
+    padding: 10px 12px 18px;
+    line-height: 25px;
+    text-align: center;
   }
 
   article.cardWork {
     display: flex;
+    justify-content: flex-start;
   }
 
   figure#logo-butterfly.logo-desktop img {
     margin-right: 93px;
+  }
+
+  h1.hero-title {
+    font-size: 3.5rem;
+  }
+
+  .group-info-card {
+    gap: 1px;
+    width: 100%;
+  }
+
+  h1.hero-title-about {
+    font-size: 3.5rem;
+    width: 100%;
+  }
+
+  article.theme-about {
+    padding-bottom: 38px;
+  }
+
+  article.contact-about {
+    padding-top: 35px;
+  }
+
+  section.creative-commons {
+    padding-top: 46px;
+  }
+
+  h2.title-main-about {
+    font-size: 1.8rem;
+    font-family: 'Lato-Regular', sans-serif;
+    font-weight: 400;
   }
 }
